@@ -1,5 +1,5 @@
 [package]
-name = "exp_rust"
+name = "expedientes"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,3 +7,6 @@ edition = "2021"
 reqwest = { version = "0.12.8", features = ["json"] }
 tokio = { version = "1", features = ["full"] }
 serde_json = "1.0.128"
+crossterm = "0.24"
+serde = { version = "1.0", features = ["derive"] }
+csv = "1.1"
